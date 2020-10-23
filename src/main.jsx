@@ -4,8 +4,9 @@ import DemoApp from './DemoApp'
 import './main.css'
 
 document.addEventListener('DOMContentLoaded', function() {
+  document.title = 'Calendar App',
   render(
     <DemoApp />,
-    document.body.appendChild(document.createElement('div'))
+    document.body.appendChild(document.createElement('div')),
   )
 })

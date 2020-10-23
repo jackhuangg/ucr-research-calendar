@@ -1,3 +1,4 @@
+  
 const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const packageMeta = require('./package.json')
@@ -28,7 +29,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: packageMeta.title
+      title: "test"
     })
   ],
   devServer: {
